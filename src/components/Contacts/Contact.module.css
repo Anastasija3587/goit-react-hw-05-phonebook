@@ -1,0 +1,25 @@
+.btnDel {
+  color: rgb(255, 0, 0)
+}
+
+.btnDel:hover{
+  background: rgba(224, 63, 63, 0.582);
+}
+
+.btnDel:active {
+  border: 3px solid rgb(243, 82, 18);
+}
+
+.name {
+  width: 180px;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+  padding-left: 10px;
+}

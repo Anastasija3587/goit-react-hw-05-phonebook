@@ -1,0 +1,12 @@
+.title {
+  color: rgb(51, 85, 139);
+}
+
+.title-appear {
+  transform: translateX(-100%);
+}
+
+.title-appear-active {
+  transform: translateY(0);
+  transition: transform 500ms linear;
+}
